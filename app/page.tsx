@@ -1,23 +1,26 @@
 import Image from "next/image";
 
-// Service card component
-function ServiceCard({ title, icon }: { title: string; icon: string }) {
+function ServiceCard({
+  title,
+  icon,
+  description,
+}: {
+  title: string;
+  icon: string;
+  description: string;
+}) {
   return (
     <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
       <div className="text-4xl mb-4">{icon}</div>
       <h3 className="text-xl font-semibold mb-2">{title}</h3>
-      <p className="text-sm text-gray-600">
-        Professional support tailored to your business needs.
-      </p>
+      <p className="text-sm text-gray-600">{description}</p>
     </div>
   );
 }
 
-// Homepage
 export default function Home() {
   return (
     <>
-      {/* Navigation */}
       <nav className="bg-white shadow-md fixed top-0 left-0 right-0 z-50">
         <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
           <span className="text-lg font-bold text-blue-600">Credence Consulting</span>
@@ -29,7 +32,6 @@ export default function Home() {
         </div>
       </nav>
 
-      {/* Main content */}
       <main className="bg-white text-gray-800 mt-20">
         {/* Hero Section */}
         <section
@@ -50,11 +52,31 @@ export default function Home() {
         <section id="services" className="py-16 px-6 bg-gray-50">
           <h2 className="text-3xl font-bold text-center mb-10">Our Services</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto text-center">
-            <ServiceCard title="Data Engineering" icon="💾" />
-            <ServiceCard title="Business Analysis" icon="📊" />
-            <ServiceCard title="Project Management" icon="📅" />
-            <ServiceCard title="Financial, Bookkeeping & Accounting" icon="📘" />
-            <ServiceCard title="Taxation" icon="🧾" />
+            <ServiceCard
+              title="Data Engineering"
+              icon="💾"
+              description="Design, build, and optimize data pipelines on cloud platforms like Azure and Databricks. Integrate data sources and enable advanced analytics for business growth."
+            />
+            <ServiceCard
+              title="Business Analysis"
+              icon="📊"
+              description="Translate business needs into actionable insights using BRDs, BPMN, and user stories. Align stakeholders and drive results across the SDLC."
+            />
+            <ServiceCard
+              title="Project Management"
+              icon="📅"
+              description="Deliver projects on time and within scope using Agile, Scrum, and PMP principles. Coordinate teams and resources effectively."
+            />
+            <ServiceCard
+              title="Financial, Bookkeeping & Accounting"
+              icon="📘"
+              description="Handle daily bookkeeping, reconciliations, payroll, and reporting using QuickBooks. Ensure clean and accurate financials."
+            />
+            <ServiceCard
+              title="Taxation"
+              icon="🧾"
+              description="Stay compliant with Tax Regulation. Prepare and file GST/HST returns, T4s, and year-end taxes for individuals and small businesses."
+            />
           </div>
         </section>
 
@@ -72,8 +94,8 @@ export default function Home() {
             />
             <p className="text-lg text-center sm:text-left">
               I’m a consultant committed to helping businesses build modern data solutions, optimize processes,
-              ensure financial accuracy, and meet compliance with confidence. My expertise spans technical and
-              strategic disciplines, tailored to support your growth.
+              ensure financial accuracy, and meet compliance with confidence. My expertise spans technical and strategic disciplines,
+              tailored to support your growth.
             </p>
           </div>
         </section>
