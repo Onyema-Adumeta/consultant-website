@@ -1,14 +1,6 @@
 import Image from "next/image";
 
-function ServiceCard({
-  title,
-  icon,
-  description,
-}: {
-  title: string;
-  icon: string;
-  description: string;
-}) {
+function ServiceCard({ title, icon, description }: { title: string; icon: string; description: string }) {
   return (
     <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
       <div className="text-4xl mb-4">{icon}</div>
@@ -42,7 +34,7 @@ export default function Home() {
           <div className="z-10 p-6 rounded">
             <h1 className="text-4xl sm:text-5xl font-bold mb-4">Credence Consulting</h1>
             <p className="text-xl sm:text-2xl">
-              Data Engineering, Business Analysis, Project Management,<br />
+              Data Engineering, Business Consulting,<br />
               Bookkeeping & Accounting, and Taxation
             </p>
           </div>
@@ -52,30 +44,25 @@ export default function Home() {
         <section id="services" className="py-16 px-6 bg-gray-50">
           <h2 className="text-3xl font-bold text-center mb-10">Our Services</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto text-center">
-            <ServiceCard
-              title="Data Engineering"
-              icon="💾"
-              description="Design, build, and optimize data pipelines on cloud platforms like Azure and Databricks. Integrate data sources and enable advanced analytics for business growth."
+            <ServiceCard 
+              title="Data Engineering" 
+              icon="💾" 
+              description="Build scalable data pipelines and integrate data solutions across platforms for efficient decision-making." 
             />
-            <ServiceCard
-              title="Business Analysis"
-              icon="📊"
-              description="Translate business needs into actionable insights using BRDs, BPMN, and user stories. Align stakeholders and drive results across the SDLC."
+            <ServiceCard 
+              title="Business Consulting" 
+              icon="🧠" 
+              description="Strategic support through planning, analysis, stakeholder engagement, and project delivery for business growth." 
             />
-            <ServiceCard
-              title="Project Management"
-              icon="📅"
-              description="Deliver projects on time and within scope using Agile, Scrum, and PMP principles. Coordinate teams and resources effectively."
+            <ServiceCard 
+              title="Financial, Bookkeeping & Accounting" 
+              icon="📘" 
+              description="Maintain accurate financial records, manage reconciliations, and ensure regulatory compliance." 
             />
-            <ServiceCard
-              title="Financial, Bookkeeping & Accounting"
-              icon="📘"
-              description="Handle daily bookkeeping, reconciliations, payroll, and reporting using QuickBooks. Ensure clean and accurate financials."
-            />
-            <ServiceCard
-              title="Taxation"
-              icon="🧾"
-              description="Stay compliant with Tax Regulation. Prepare and file GST/HST returns, T4s, and year-end taxes for individuals and small businesses."
+            <ServiceCard 
+              title="Taxation" 
+              icon="🧾" 
+              description="Expertise in tax preparation, compliance, GST/HST filing, and strategic planning for individuals and businesses." 
             />
           </div>
         </section>
@@ -85,7 +72,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-center mb-6">About</h2>
           <div className="flex flex-col sm:flex-row items-center gap-8">
             <Image
-              src="/images/consultant.jpg"
+              src="/images/Personal.jpg"
               alt="Consultant"
               width={180}
               height={180}
@@ -95,7 +82,7 @@ export default function Home() {
             <p className="text-lg text-center sm:text-left">
               I’m a consultant committed to helping businesses build modern data solutions, optimize processes,
               ensure financial accuracy, and meet compliance with confidence. My expertise spans technical and strategic disciplines,
-              tailored to support your growth.
+              tailored to support your growth through Data Engineering, Business Consulting, and Financial Services.
             </p>
           </div>
         </section>
