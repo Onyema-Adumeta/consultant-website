@@ -5,7 +5,6 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <>
-      {/* Navigation Bar */}
       <nav className="bg-white shadow-md fixed top-0 left-0 right-0 z-50">
         <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
           <Link href="/" className="text-lg font-bold text-blue-600">
@@ -117,23 +116,23 @@ export default function Home() {
           <div className="mt-12 max-w-4xl mx-auto grid sm:grid-cols-2 gap-6 text-sm text-gray-700">
             <div>
               <h3 className="text-base font-semibold mb-1">Address</h3>
-              <p>Suite 100, 123 Main Street, Chilliwack, BC V2P 4A6, Canada</p>
+              <p>5623 Teskey Way, Chilliwack, BC V2R 0K9, Canada</p>
             </div>
             <div>
               <h3 className="text-base font-semibold mb-1">Phone</h3>
-              <p>(604) 123-4567</p>
+              <p>(604) 213-3915</p>
             </div>
           </div>
 
           {/* Google Maps Embed */}
-          <div className="mt-10 w-full h-72">
+          <div className="mt-10 w-full h-[400px]">
             <iframe
               title="Office Location"
               className="w-full h-full rounded shadow"
               loading="lazy"
               allowFullScreen
-              src="https://www.google.com/maps/embed/v1/place?key=YOUR_GOOGLE_MAPS_API_KEY&q=Chilliwack,BC"
-            ></iframe>
+              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB3tdmRr5O765QAFDkL_E9RgU2eexHLNGk&q=Chilliwack,BC"
+            />
           </div>
         </section>
       </main>
