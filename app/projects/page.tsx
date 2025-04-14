@@ -2,75 +2,60 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
+const projects = [
+  {
+    title: 'Telecom Data Pipeline – Azure & Databricks',
+    description: 'Designed and deployed a scalable data pipeline using Azure Data Factory and Databricks to process telecom customer usage logs. Enabled real-time analytics and reduced batch processing time by 60%.',
+    image: '/images/consultant.jpg'
+  },
+  {
+    title: 'Loan Origination Analysis – Business Consulting',
+    description: "Led business analysis and project coordination for a Canadian bank's loan origination platform. Improved onboarding process and reduced application approval time by 35%.",
+    image: '/images/business-consulting.jpg'
+  },
+  {
+    title: 'SME Financial Reconciliation – Bookkeeping',
+    description: 'Automated reconciliation and monthly reporting for a multi-location retail SME using QuickBooks and Excel macros. Achieved over 95% transaction classification accuracy.',
+    image: '/images/bookkeeping.jpg'
+  },
+  {
+    title: 'IoT Sensor Data Injection – Azure Event Hubs',
+    description: 'Implemented a real-time data ingestion solution for environmental sensors using Azure IoT Hub and Event Hubs, streaming into a structured Delta Lake for downstream analytics.',
+    image: '/images/injection.jpg'
+  },
+  {
+    title: 'Data Cleanup Pipeline – PySpark & Azure Data Lake',
+    description: 'Developed a PySpark-based cleaning and validation layer that sanitized millions of records stored in Azure Data Lake, ensuring data readiness for machine learning workflows.',
+    image: '/images/cleanup.jpg'
+  }
+];
+
 export default function Projects() {
   return (
-    <>
-      {/* Navigation Bar */}
-      <nav className="bg-white shadow-md fixed top-0 left-0 right-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
-          <Link href="/" className="text-lg font-bold text-blue-600">
-            Credence Consulting
-          </Link>
-          <div className="space-x-6 text-sm font-medium text-gray-700">
-            <Link href="/" className="hover:text-blue-600 transition">Home</Link>
-            <a href="/#services" className="hover:text-blue-600 transition">Services</a>
-            <a href="/#about" className="hover:text-blue-600 transition">About</a>
-            <a href="/#contact" className="hover:text-blue-600 transition">Contact</a>
-          </div>
+    <main className="bg-white py-20 px-6 text-gray-800">
+      <div className="max-w-6xl mx-auto">
+        <div className="flex justify-between items-center mb-12">
+          <h1 className="text-4xl font-bold">Projects & Case Studies</h1>
+          <Link href="/" className="text-blue-600 hover:underline text-sm">← Back to Home</Link>
         </div>
-      </nav>
-
-      <main className="bg-white text-gray-800 py-24 px-6">
-        <section className="max-w-6xl mx-auto">
-          <h1 className="text-4xl font-bold text-center mb-12">Projects & Case Studies</h1>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
-            {/* Data Engineering */}
-            <div className="bg-white border border-gray-200 rounded-lg shadow-md p-6 hover:shadow-lg transition">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+          {projects.map((project, idx) => (
+            <div key={idx} className="bg-gray-50 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
               <Image
-                src="/images/data-engineering.jpg"
-                alt="Data Engineering Project"
-                width={400}
-                height={250}
-                className="rounded mb-4 object-cover w-full h-48"
+                src={project.image}
+                alt={project.title}
+                width={600}
+                height={400}
+                className="w-full h-48 object-cover"
               />
-              <h3 className="text-xl font-semibold mb-2">Telecom Analytics Platform</h3>
-              <p className="text-sm text-gray-600">
-                Built a scalable analytics pipeline using Azure Data Factory, Data Lake, and Databricks to process 100M+ daily CDRs. Enabled real-time insights for network optimization and churn prediction.
-              </p>
+              <div className="p-6">
+                <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
+                <p className="text-sm text-gray-600">{project.description}</p>
+              </div>
             </div>
-
-            {/* Business Consulting */}
-            <div className="bg-white border border-gray-200 rounded-lg shadow-md p-6 hover:shadow-lg transition">
-              <Image
-                src="/images/business-consulting.jpg"
-                alt="Business Consulting Project"
-                width={400}
-                height={250}
-                className="rounded mb-4 object-cover w-full h-48"
-              />
-              <h3 className="text-xl font-semibold mb-2">Loan Origination Strategy</h3>
-              <p className="text-sm text-gray-600">
-                Partnered with a commercial bank to streamline loan application workflows using Agile delivery and process mapping. Reduced approval cycle time by 40% and increased throughput.
-              </p>
-            </div>
-
-            {/* Bookkeeping & Accounting */}
-            <div className="bg-white border border-gray-200 rounded-lg shadow-md p-6 hover:shadow-lg transition">
-              <Image
-                src="/images/bookkeeping.jpg"
-                alt="Bookkeeping for SME"
-                width={400}
-                height={250}
-                className="rounded mb-4 object-cover w-full h-48"
-              />
-              <h3 className="text-xl font-semibold mb-2">SME Financial Overhaul</h3>
-              <p className="text-sm text-gray-600">
-                Provided monthly bookkeeping, GST/HST filings, and payroll support to a Canadian small business. Helped the owner stay audit-ready and reclaim over $15K in unclaimed expenses.
-              </p>
-            </div>
-          </div>
-        </section>
-      </main>
-    </>
+          ))}
+        </div>
+      </div>
+    </main>
   );
 }

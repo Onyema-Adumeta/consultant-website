@@ -112,11 +112,13 @@ export default function Home() {
           <div className="mt-12 max-w-4xl mx-auto grid sm:grid-cols-2 gap-6 text-sm text-gray-700">
             <div>
               <h3 className="text-base font-semibold mb-1">Address</h3>
-              <p>Suite 100, 123 Main Street, Chilliwack, BC V2P 4A6, Canada</p>
+              <p>5623, Teskey Way, Chilliwack, BC V2R 0K9, Canada</p>
             </div>
             <div>
               <h3 className="text-base font-semibold mb-1">Phone</h3>
-              <p>(604) 123-4567</p>
+              <p>(604) 213-3915</p>
+              <h3 className="text-base font-semibold mt-4 mb-1">Email</h3>
+              <p><a href="mailto:info@credenceconsulting.io" className="text-blue-600 hover:underline">info@credenceconsulting.io</a></p>
             </div>
           </div>
         </section>
