@@ -20,7 +20,6 @@ export default function Home() {
       </nav>
 
       <main className="bg-white text-gray-800 pt-24">
-        {/* Hero Section */}
         <section
           className="relative bg-cover bg-center h-[400px] flex items-center justify-center text-white text-center"
           style={{ backgroundImage: "url('/images/chilliwack.png')" }}
@@ -35,7 +34,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Services Section */}
         <section id="services" className="py-16 px-6 bg-gray-50">
           <h2 className="text-3xl font-bold text-center mb-10">Our Services</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto text-center">
@@ -62,7 +60,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* About Section */}
         <section id="about" className="py-16 px-6 bg-white max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-6">About</h2>
           <div className="flex flex-col sm:flex-row items-center gap-8">
@@ -82,7 +79,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Contact Section */}
         <section id="contact" className="py-16 px-6 bg-gray-100">
           <h2 className="text-3xl font-bold text-center mb-4">Let’s Work Together</h2>
           <p className="text-lg text-center mb-8">
@@ -116,23 +112,12 @@ export default function Home() {
           <div className="mt-12 max-w-4xl mx-auto grid sm:grid-cols-2 gap-6 text-sm text-gray-700">
             <div>
               <h3 className="text-base font-semibold mb-1">Address</h3>
-              <p>5623 Teskey Way, Chilliwack, BC V2R 0K9, Canada</p>
+              <p>Suite 100, 123 Main Street, Chilliwack, BC V2P 4A6, Canada</p>
             </div>
             <div>
               <h3 className="text-base font-semibold mb-1">Phone</h3>
-              <p>(604) 213-3915</p>
+              <p>(604) 123-4567</p>
             </div>
-          </div>
-
-          {/* Google Maps Embed */}
-          <div className="mt-10 w-full h-[400px]">
-            <iframe
-              title="Office Location"
-              className="w-full h-full rounded shadow"
-              loading="lazy"
-              allowFullScreen
-              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB3tdmRr5O765QAFDkL_E9RgU2eexHLNGk&q=Chilliwack,BC"
-            />
           </div>
         </section>
       </main>
