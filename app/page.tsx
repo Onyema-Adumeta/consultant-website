@@ -1,10 +1,28 @@
 'use client';
 import Image from 'next/image';
 import Link from 'next/link';
+import Head from 'next/head';
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Credence Consulting | Data Engineering & Business Strategy</title>
+        <meta name="description" content="We help businesses unlock insights, streamline operations, and stay financially accurate with expert consulting services in data, bookkeeping, and project strategy." />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="author" content="Credence Consulting" />
+        <meta name="keywords" content="Credence Consulting, Data Engineering, Business Consulting, Bookkeeping, Project Management, Chilliwack, Canada" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.credenceconsulting.io/" />
+        <meta property="og:title" content="Credence Consulting" />
+        <meta property="og:description" content="Expert consulting in data, business analysis, and bookkeeping." />
+        <meta property="og:image" content="https://www.credenceconsulting.io/images/chilliwack.png" />
+        <meta property="og:url" content="https://www.credenceconsulting.io/" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+
       <nav className="bg-white shadow-md fixed top-0 left-0 right-0 z-50">
         <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
           <Link href="/" className="text-lg font-bold text-blue-600">
