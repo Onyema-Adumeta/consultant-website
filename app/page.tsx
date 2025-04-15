@@ -21,6 +21,57 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="icon" href="/favicon.ico" />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          "name": "Credence Consulting",
+          "image": "https://www.credenceconsulting.io/images/chilliwack.png",
+          "@id": "https://www.credenceconsulting.io",
+          "url": "https://www.credenceconsulting.io",
+          "telephone": "+16042133915",
+          "email": "info@credenceconsulting.io",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "5623 Teskey Way",
+            "addressLocality": "Chilliwack",
+            "addressRegion": "BC",
+            "postalCode": "V2R 0K9",
+            "addressCountry": "CA"
+          },
+          "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "07:00",
+            "closes": "17:00"
+          },
+          "sameAs": [
+            "https://www.linkedin.com/company/credenceconsulting"
+          ]
+        }` }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://www.credenceconsulting.io/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Projects",
+              "item": "https://www.credenceconsulting.io/projects"
+            }
+          ]
+        }` }} />
       </Head>
 
       <nav className="bg-white shadow-md fixed top-0 left-0 right-0 z-50">
