@@ -57,6 +57,7 @@ export default function Projects() {
                 width={600}
                 height={400}
                 className="w-full h-48 object-cover"
+                unoptimized
               />
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
