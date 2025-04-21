@@ -1,12 +1,18 @@
 {
-    "navigationFallback": {
-      "rewrite": "/index.html",
-      "exclude": [
-        "/images/*",
-        "/favicon.ico",
-        "/robots.txt",
-        "/sitemap.xml"
-      ]
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": ["/images/*", "/favicon.ico"]
+  },
+  "responseOverrides": {
+    "404": {
+      "rewrite": "/index.html"
     }
-  }
-  
+  },
+  "routes": [
+    {
+      "route": "/",
+      "redirect": "https://www.credenceconsulting.io",
+      "statusCode": 301
+    }
+  ]
+}
