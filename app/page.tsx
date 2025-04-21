@@ -1,9 +1,10 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import HeroSection from '@/components/HeroSection';
-import ServicesSection from '@/components/ServicesSection';
-import AboutSection from '@/components/AboutSection';
-import ContactSection from '@/components/ContactSection';
+import HeroSection from './components/HeroSection';
+import ServicesSection from './components/ServicesSection';
+import AboutSection from './components/AboutSection';
+import ContactSection from './components/ContactSection';
+
 
 
 export const metadata = {
