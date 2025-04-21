@@ -1,79 +1,20 @@
-'use client';
-import Image from 'next/image';
 import Link from 'next/link';
-import Head from 'next/head';
+import Image from 'next/image';
+import HeroSection from '@/components/HeroSection';
+import ServicesSection from '@/components/ServicesSection';
+import AboutSection from '@/components/AboutSection';
+import ContactSection from '@/components/ContactSection';
+
+
+export const metadata = {
+  title: "Credence Consulting | Data Engineering & Business Strategy",
+  description:
+    "Helping businesses optimize data, operations, and financials with expert consulting in Data Engineering, Business Strategy, and Accounting.",
+};
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Credence Consulting | Data Engineering & Business Strategy</title>
-        <meta name="description" content="We help businesses unlock insights, streamline operations, and stay financially accurate with expert consulting services in data, bookkeeping, and project strategy." />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="author" content="Credence Consulting" />
-        <meta name="keywords" content="Credence Consulting, Data Engineering, Business Consulting, Bookkeeping, Project Management, Chilliwack, Canada" />
-        <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.credenceconsulting.io/" />
-        <meta property="og:title" content="Credence Consulting" />
-        <meta property="og:description" content="Expert consulting in data, business analysis, and bookkeeping." />
-        <meta property="og:image" content="https://www.credenceconsulting.io/images/chilliwack.png" />
-        <meta property="og:url" content="https://www.credenceconsulting.io/" />
-        <meta property="og:type" content="website" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <link rel="icon" href="/favicon.ico" />
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
-          "@context": "https://schema.org",
-          "@type": "LocalBusiness",
-          "name": "Credence Consulting",
-          "image": "https://www.credenceconsulting.io/images/chilliwack.png",
-          "@id": "https://www.credenceconsulting.io",
-          "url": "https://www.credenceconsulting.io",
-          "telephone": "+16042133915",
-          "email": "info@credenceconsulting.io",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "5623 Teskey Way",
-            "addressLocality": "Chilliwack",
-            "addressRegion": "BC",
-            "postalCode": "V2R 0K9",
-            "addressCountry": "CA"
-          },
-          "openingHoursSpecification": {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Friday"
-            ],
-            "opens": "07:00",
-            "closes": "17:00"
-          },
-          "sameAs": [
-            "https://www.linkedin.com/company/credenceconsulting"
-          ]
-        }` }} />
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
-          "@context": "https://schema.org",
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://www.credenceconsulting.io/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Projects",
-              "item": "https://www.credenceconsulting.io/projects"
-            }
-          ]
-        }` }} />
-      </Head>
-
       <nav className="bg-white shadow-md fixed top-0 left-0 right-0 z-50">
         <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
           <Link href="/" className="text-lg font-bold text-blue-600">
@@ -91,7 +32,7 @@ export default function Home() {
       <main className="bg-white text-gray-800 pt-24">
         <section
           className="relative bg-cover bg-center h-[400px] flex items-center justify-center text-white text-center"
-          style={{ backgroundImage: "url('/images/chilliwack.png')" }}
+          style={{ backgroundImage: "url('/images/chilli.jpg')" }}
         >
           <div className="absolute inset-0 bg-black bg-opacity-50 z-0" />
           <div className="z-10 p-6 rounded">
@@ -120,11 +61,6 @@ export default function Home() {
               title="Bookkeeping & Accounting" 
               icon="📘" 
               description="Reliable monthly financial reporting, reconciliations, and compliance support for small and mid-sized enterprises across Canada." 
-            />
-            <ServiceCard 
-              title="Taxation" 
-              icon="🧾" 
-              description="Accurate tax preparation and strategic planning for individuals and businesses, ensuring full compliance with CRA requirements." 
             />
           </div>
         </section>
