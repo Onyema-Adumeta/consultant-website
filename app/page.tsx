@@ -25,6 +25,7 @@ export default function Home() {
             <a href="#certifications" className="hover:text-blue-600 transition">Certifications</a>
             <a href="#contact" className="hover:text-blue-600 transition">Contact</a>
             <Link href="/projects" className="hover:text-blue-600 transition">Projects</Link>
+            <Link href="/insightbridge" className="hover:text-blue-600 transition">InsightBridge</Link>
           </div>
         </div>
       </nav>
