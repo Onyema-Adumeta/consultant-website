@@ -4,6 +4,12 @@ import Link from 'next/link';
 
 const projects = [
   {
+    title: 'InsightBridge – AI-Powered Financial Analysis Platform',
+    description:
+      'Currently building an AI-powered platform that summarizes financial reports, reconciles ledgers, and delivers personalized business insights from PDF, Excel, and CSV files. Built with Azure, FastAPI, Power BI, and OpenAI.',
+    image: '/projects/insightbridge.jpg',
+  },
+  {
     title: 'Telecom Data Pipeline – Azure & Databricks',
     description:
       'Designed and deployed a scalable data pipeline using Azure Data Factory and Databricks to process telecom customer usage logs. Enabled real-time analytics and reduced batch processing time by 60%.',
@@ -70,3 +76,4 @@ export default function Projects() {
     </main>
   );
 }
+
