@@ -1,15 +1,18 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
+  display: 'swap',
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const playfair = Playfair_Display({
+  variable: "--font-playfair",
   subsets: ["latin"],
+  weight: ['600', '700'],
+  display: 'swap',
 });
 
 export const metadata: Metadata = {
@@ -24,11 +27,15 @@ export const metadata: Metadata = {
     "Accounting",
     "Chilliwack",
     "Canada",
+    "InsightBridge",
+    "AI Financial Analysis",
+    "Microsoft Fabric",
+    "CBAP",
   ],
   authors: [{ name: "Credence Consulting", url: "https://www.credenceconsulting.io" }],
   openGraph: {
-    title: "Credence Consulting",
-    description: "Expert consulting in data, business analysis, and bookkeeping.",
+    title: "Credence Consulting | Data Engineering & Business Strategy",
+    description: "Expert consulting in data engineering, business analysis, and bookkeeping.",
     url: "https://www.credenceconsulting.io",
     siteName: "Credence Consulting",
     images: [
@@ -36,10 +43,16 @@ export const metadata: Metadata = {
         url: "https://www.credenceconsulting.io/images/chilli.jpg",
         width: 1200,
         height: 630,
-        alt: "Credence Consulting Hero",
+        alt: "Credence Consulting",
       },
     ],
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Credence Consulting | Data Engineering & Business Strategy",
+    description: "Expert consulting in data engineering, business analysis, and bookkeeping.",
+    images: ["https://www.credenceconsulting.io/images/chilli.jpg"],
   },
 };
 
@@ -49,8 +62,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+    <html lang="en" className="scroll-smooth">
+      <body className={`${inter.variable} ${playfair.variable} antialiased`}>
         {children}
       </body>
     </html>
