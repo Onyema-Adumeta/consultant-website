@@ -13,16 +13,16 @@ const services = [
       </svg>
     ),
     description:
-      'Modern data pipelines and cloud solutions that enable businesses to unlock actionable insights from raw data, driving innovation and efficiency.',
+      'Build the data infrastructure you need without the enterprise complexity. Automated pipelines, real-time dashboards, and insights that actually drive decisions.',
     features: [
-      'Cloud data warehouse architecture',
-      'Real-time data pipelines',
-      'Data integration & ETL',
-      'Business intelligence solutions',
+      'Automated data pipelines',
+      'Cloud data warehouses (AWS, Azure, GCP)',
+      'Real-time dashboards & BI',
+      'Legacy system integration',
     ],
   },
   {
-    title: 'Business Consulting',
+    title: 'Business Analysis & Consulting',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-8 h-8">
         <path d="M3 3v18h18"></path>
@@ -32,16 +32,16 @@ const services = [
       </svg>
     ),
     description:
-      'Strategic business analysis, project leadership, and process optimization tailored to streamline operations and achieve growth objectives.',
+      'Strategic guidance that bridges the gap between your business goals and technical execution. We speak both business and tech fluently.',
     features: [
-      'Business process optimization',
-      'Requirements analysis',
-      'Project leadership & delivery',
-      'Digital transformation strategy',
+      'Process optimization & automation',
+      'Requirements gathering & analysis',
+      'Digital transformation roadmaps',
+      'ROI-focused project delivery',
     ],
   },
   {
-    title: 'Bookkeeping & Accounting',
+    title: 'Bookkeeping & Financial Services',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-8 h-8">
         <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
@@ -51,12 +51,12 @@ const services = [
       </svg>
     ),
     description:
-      'Reliable monthly financial reporting, reconciliations, and compliance support for small and mid-sized enterprises across Canada.',
+      'Reliable monthly financial reporting and compliance support that gives you confidence in your numbers—without the overhead of a full-time bookkeeper.',
     features: [
       'Monthly financial reporting',
       'Account reconciliation',
-      'Compliance & audit support',
-      'Financial process automation',
+      'Compliance & audit preparation',
+      'Financial automation setup',
     ],
   },
   {
@@ -71,7 +71,7 @@ const services = [
       </svg>
     ),
     description:
-      'A smart financial data platform developed by Credence Consulting to help small businesses gain insights from financial documents with AI-powered analysis.',
+      'AI-powered financial analysis for small businesses. Upload your financial documents and get instant insights, trend analysis, and actionable recommendations.',
     link: '/insightbridge',
     featured: true,
   },
@@ -90,21 +90,21 @@ function ServiceCard({ title, icon, description, features, link, featured }: Ser
   return (
     <div
       className={`group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden h-full flex flex-col ${
-        featured ? 'border-2 border-indigo-500 relative' : ''
+        featured ? 'border-2 border-teal-500 relative' : ''
       }`}
     >
       {featured && (
-        <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-600 to-indigo-600"></div>
+        <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-teal-500 to-blue-500"></div>
       )}
       
       <div className="p-8 flex-1 flex flex-col">
         {/* Icon */}
-        <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-indigo-600 rounded-xl flex items-center justify-center text-white mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg">
+        <div className="w-16 h-16 bg-gradient-to-br from-teal-500 to-blue-500 rounded-xl flex items-center justify-center text-white mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg">
           {icon}
         </div>
 
         {/* Title */}
-        <h3 className="text-2xl font-bold text-gray-900 mb-4 group-hover:text-blue-600 transition-colors">
+        <h3 className="text-2xl font-bold text-gray-900 mb-4 group-hover:text-teal-600 transition-colors">
           {title}
         </h3>
 
@@ -119,7 +119,7 @@ function ServiceCard({ title, icon, description, features, link, featured }: Ser
             {features.map((feature, idx) => (
               <li key={idx} className="flex items-start gap-3 text-sm text-gray-700">
                 <svg
-                  className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5"
+                  className="w-5 h-5 text-teal-600 flex-shrink-0 mt-0.5"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -137,12 +137,12 @@ function ServiceCard({ title, icon, description, features, link, featured }: Ser
           </ul>
         )}
 
-        {/* Learn More Link - NO NESTED LINKS */}
+        {/* Learn More Link */}
         <div className="mt-auto">
           {link ? (
             <Link 
               href={link}
-              className="inline-flex items-center gap-2 text-blue-600 font-semibold group-hover:gap-3 transition-all"
+              className="inline-flex items-center gap-2 text-teal-600 font-semibold group-hover:gap-3 transition-all"
             >
               Explore Platform
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -152,7 +152,7 @@ function ServiceCard({ title, icon, description, features, link, featured }: Ser
           ) : (
             <a 
               href="#contact"
-              className="inline-flex items-center gap-2 text-blue-600 font-semibold group-hover:gap-3 transition-all"
+              className="inline-flex items-center gap-2 text-teal-600 font-semibold group-hover:gap-3 transition-all"
             >
               Get Started
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -172,14 +172,14 @@ export default function ServicesSection() {
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <span className="inline-block px-4 py-2 bg-blue-100 text-blue-600 font-semibold text-sm uppercase tracking-wider rounded-lg mb-4">
+          <span className="inline-block px-4 py-2 bg-teal-100 text-teal-600 font-semibold text-sm uppercase tracking-wider rounded-lg mb-4">
             What We Do
           </span>
           <h2 className="font-playfair text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
-            Comprehensive Solutions for Modern Businesses
+            Data Infrastructure for Growing Businesses
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            From data infrastructure to financial compliance, we deliver end-to-end solutions that drive measurable business outcomes.
+            From automated pipelines to financial clarity, we build practical solutions that save time, reduce errors, and give you the insights you need to compete.
           </p>
         </div>
 
@@ -196,6 +196,22 @@ export default function ServicesSection() {
               featured={service.featured}
             />
           ))}
+        </div>
+
+        {/* Bottom CTA */}
+        <div className="mt-16 text-center">
+          <p className="text-lg text-gray-600 mb-6">
+            Not sure what you need? Let's talk about your specific challenges.
+          </p>
+          <a
+            href="#contact"
+            className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-teal-500 to-blue-500 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300"
+          >
+            Book Free Consultation
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </a>
         </div>
       </div>
     </section>

@@ -46,10 +46,10 @@ export default function Navigation() {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-indigo-600 rounded-lg flex items-center justify-center text-white font-bold text-xl shadow-md group-hover:shadow-lg transition-shadow">
+            <div className="w-10 h-10 bg-gradient-to-br from-teal-500 to-blue-500 rounded-lg flex items-center justify-center text-white font-bold text-xl shadow-md group-hover:shadow-lg transition-shadow">
               C
             </div>
-            <span className="text-lg font-bold text-gray-900 group-hover:text-blue-600 transition-colors">
+            <span className="text-lg font-bold text-gray-900 group-hover:text-teal-600 transition-colors">
               Credence Consulting
             </span>
           </Link>
@@ -59,44 +59,51 @@ export default function Navigation() {
             <a
               href="#services"
               onClick={(e) => handleAnchorClick(e, '#services')}
-              className="text-sm font-medium text-gray-700 hover:text-blue-600 transition-colors relative group"
+              className="text-sm font-medium text-gray-700 hover:text-teal-600 transition-colors relative group"
             >
               Services
-              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-teal-600 transition-all duration-300 group-hover:w-full"></span>
             </a>
             <a
               href="#about"
               onClick={(e) => handleAnchorClick(e, '#about')}
-              className="text-sm font-medium text-gray-700 hover:text-blue-600 transition-colors relative group"
+              className="text-sm font-medium text-gray-700 hover:text-teal-600 transition-colors relative group"
             >
               About
-              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-teal-600 transition-all duration-300 group-hover:w-full"></span>
             </a>
             <a
               href="#certifications"
               onClick={(e) => handleAnchorClick(e, '#certifications')}
-              className="text-sm font-medium text-gray-700 hover:text-blue-600 transition-colors relative group"
+              className="text-sm font-medium text-gray-700 hover:text-teal-600 transition-colors relative group"
             >
               Certifications
-              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-teal-600 transition-all duration-300 group-hover:w-full"></span>
             </a>
             <Link
               href="/projects"
-              className="text-sm font-medium text-gray-700 hover:text-blue-600 transition-colors relative group"
+              className="text-sm font-medium text-gray-700 hover:text-teal-600 transition-colors relative group"
             >
               Projects
-              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-teal-600 transition-all duration-300 group-hover:w-full"></span>
+            </Link>
+            <Link
+              href="/blog"
+              className="text-sm font-medium text-gray-700 hover:text-teal-600 transition-colors relative group"
+            >
+              Blog
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-teal-600 transition-all duration-300 group-hover:w-full"></span>
             </Link>
             <Link
               href="/insightbridge"
-              className="text-sm font-semibold text-indigo-600 hover:text-indigo-700 transition-colors"
+              className="text-sm font-semibold text-blue-600 hover:text-blue-700 transition-colors"
             >
               InsightBridge
             </Link>
             <a
               href="#contact"
               onClick={(e) => handleAnchorClick(e, '#contact')}
-              className="px-5 py-2.5 bg-gradient-to-r from-blue-600 to-indigo-600 text-white text-sm font-semibold rounded-lg shadow-md hover:shadow-lg hover:-translate-y-0.5 transition-all duration-200"
+              className="px-5 py-2.5 bg-gradient-to-r from-teal-500 to-blue-500 text-white text-sm font-semibold rounded-lg shadow-md hover:shadow-lg hover:-translate-y-0.5 transition-all duration-200"
             >
               Get Started
             </a>
@@ -140,42 +147,49 @@ export default function Navigation() {
               <a
                 href="#services"
                 onClick={(e) => handleAnchorClick(e, '#services')}
-                className="text-base font-medium text-gray-700 hover:text-blue-600 transition-colors py-2"
+                className="text-base font-medium text-gray-700 hover:text-teal-600 transition-colors py-2"
               >
                 Services
               </a>
               <a
                 href="#about"
                 onClick={(e) => handleAnchorClick(e, '#about')}
-                className="text-base font-medium text-gray-700 hover:text-blue-600 transition-colors py-2"
+                className="text-base font-medium text-gray-700 hover:text-teal-600 transition-colors py-2"
               >
                 About
               </a>
               <a
                 href="#certifications"
                 onClick={(e) => handleAnchorClick(e, '#certifications')}
-                className="text-base font-medium text-gray-700 hover:text-blue-600 transition-colors py-2"
+                className="text-base font-medium text-gray-700 hover:text-teal-600 transition-colors py-2"
               >
                 Certifications
               </a>
               <Link
                 href="/projects"
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="text-base font-medium text-gray-700 hover:text-blue-600 transition-colors py-2"
+                className="text-base font-medium text-gray-700 hover:text-teal-600 transition-colors py-2"
               >
                 Projects
               </Link>
               <Link
+                href="/blog"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="text-base font-medium text-gray-700 hover:text-teal-600 transition-colors py-2"
+              >
+                Blog
+              </Link>
+              <Link
                 href="/insightbridge"
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="text-base font-semibold text-indigo-600 hover:text-indigo-700 transition-colors py-2"
+                className="text-base font-semibold text-blue-600 hover:text-blue-700 transition-colors py-2"
               >
                 InsightBridge
               </Link>
               <a
                 href="#contact"
                 onClick={(e) => handleAnchorClick(e, '#contact')}
-                className="px-5 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white text-base font-semibold rounded-lg shadow-md text-center"
+                className="px-5 py-3 bg-gradient-to-r from-teal-500 to-blue-500 text-white text-base font-semibold rounded-lg shadow-md text-center"
               >
                 Get Started
               </a>
