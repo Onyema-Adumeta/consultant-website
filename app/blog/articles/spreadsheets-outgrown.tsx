@@ -10,7 +10,7 @@ export const SpreadsheetsOutgrownContent = (
         🛑 Stop Using Spreadsheets for Business: 5 Signs You've Outgrown Excel
     </h1>
     <p className="text-xl text-gray-600 font-medium mb-8">
-        Why **Data Engineering** is the essential next step for decision-makers and entrepreneurs struggling with **spreadsheet limits** and data chaos.
+        Why <strong>Data Engineering</strong> is the essential next step for decision-makers and entrepreneurs struggling with <strong>spreadsheet limits</strong> and data chaos.
     </p>
 
     <p>
@@ -34,7 +34,7 @@ export const SpreadsheetsOutgrownContent = (
     </p>
 
     <p>
-      When you have multiple people working with the same data, Excel becomes a **version control disaster**. Someone's working on last week's numbers. Another person has this month's but forgot to update the formulas. Your CFO is making decisions based on a file that's three versions out of date.
+      When you have multiple people working with the same data, Excel becomes a <strong>version control disaster</strong>. Someone's working on last week's numbers. Another person has this month's but forgot to update the formulas. Your CFO is making decisions based on a file that's three versions out of date.
     </p>
 
     <p>
@@ -44,7 +44,7 @@ export const SpreadsheetsOutgrownContent = (
     <h3 className="text-2xl font-semibold text-gray-700 mt-6 mb-3">What This Looks Like at Scale: A Case Study</h3>
 
     <p>
-      One client came to me with 47 different versions of their "master customer list" floating around. Salespeople were calling leads that had already converted. Customer service was looking up information that was six months stale. When we finally consolidated everything into a proper centralized database with defined **Data Governance**, they found:
+      One client came to me with 47 different versions of their "master customer list" floating around. Salespeople were calling leads that had already converted. Customer service was looking up information that was six months stale. When we finally consolidated everything into a proper centralized database with defined <strong>Data Governance</strong>, they found:
     </p>
 
     <ul className="list-disc list-inside space-y-1 ml-4">
@@ -53,7 +53,7 @@ export const SpreadsheetsOutgrownContent = (
       <li>23% of their "active customers" were out of business</li>
     </ul>
     <p className="italic text-sm mt-4">
-        Internal Link Suggestion: <a href="/services/data-governance-strategy" className="text-teal-600 hover:underline">Read about our Data Governance and Strategy Services to establish a single source of truth.</a>
+        Internal Link Suggestion: <a href="/#services" className="text-teal-600 hover:underline">Read about our Data Governance and Strategy Services to establish a single source of truth.</a>
     </p>
 
     <h2 id="manual-updates" className="text-3xl font-semibold text-gray-800 mt-10 mb-4">
@@ -61,7 +61,7 @@ export const SpreadsheetsOutgrownContent = (
     </h2>
 
     <p>
-      If you or your team spend significant time copying data from one spreadsheet to another, reformatting numbers, or manually updating dashboards—you've officially **outgrown spreadsheets**.
+      If you or your team spend significant time copying data from one spreadsheet to another, reformatting numbers, or manually updating dashboards—you've officially <strong>outgrown spreadsheets</strong>.
     </p>
 
     <p>
@@ -69,7 +69,7 @@ export const SpreadsheetsOutgrownContent = (
     </p>
 
     <p>
-      After building them a simple automated pipeline: **30 minutes per week**, and the data was always current.
+      After building them a simple automated pipeline: <strong>30 minutes per week</strong>, and the data was always current.
     </p>
 
     <h3 className="text-2xl font-semibold text-gray-700 mt-6 mb-3">The Math That Should Scare You: Calculating the Hidden Cost</h3>
@@ -83,7 +83,7 @@ export const SpreadsheetsOutgrownContent = (
       <li>That cost could be automated for 1/10th the price, freeing up valuable staff time.</li>
     </ul>
     <p className="italic text-sm mt-4">
-        Internal Link Suggestion: <a href="/services/business-process-optimization" className="text-teal-600 hover:underline">Improve Efficiency with Business Process Optimization and Automation Consulting.</a>
+        Internal Link Suggestion: <a href="/#services" className="text-teal-600 hover:underline">Improve Efficiency with Business Process Optimization and Automation Consulting.</a>
     </p>
 
     <h2 id="crashing" className="text-3xl font-semibold text-gray-800 mt-10 mb-4">
@@ -91,7 +91,7 @@ export const SpreadsheetsOutgrownContent = (
     </h2>
 
     <p>
-      If you're regularly seeing "Excel is not responding" or waiting 30 seconds for a spreadsheet to open, you've hit Excel's technical limits. This is a clear signal your data volume demands a **modern database solution**.
+      If you're regularly seeing "Excel is not responding" or waiting 30 seconds for a spreadsheet to open, you've hit Excel's technical limits. This is a clear signal your data volume demands a <strong>modern database solution</strong>.
     </p>
 
     <p>
@@ -106,7 +106,7 @@ export const SpreadsheetsOutgrownContent = (
     </ul>
 
     <p>
-      Modern databases laugh at these numbers. What takes Excel 30 seconds to calculate can happen in milliseconds with proper **data infrastructure**.
+      Modern databases laugh at these numbers. What takes Excel 30 seconds to calculate can happen in milliseconds with proper <strong>data infrastructure</strong>.
     </p>
 
     <h3 className="text-2xl font-semibold text-gray-700 mt-6 mb-3">The Hidden Cost of "It Works Eventually"</h3>
@@ -131,7 +131,7 @@ export const SpreadsheetsOutgrownContent = (
     </p>
 
     <p>
-      In Excel, errors compound without clear **data governance**:
+      In Excel, errors compound without clear <strong>data governance</strong>:
     </p>
 
     <ul className="list-disc list-inside space-y-1 ml-4">
@@ -148,14 +148,14 @@ export const SpreadsheetsOutgrownContent = (
     <h3 className="text-2xl font-semibold text-gray-700 mt-6 mb-3">Real-World Spreadsheet Horror Stories: The Cost of Bad Data</h3>
 
     <p>
-      <strong>Example 1:</strong> A manufacturing client was calculating material costs in Excel. Someone accidentally deleted a zero in a formula. Result: they quoted a $120,000 project at $12,000. They won the bid and lost **$108,000**.
+      <strong>Example 1:</strong> A manufacturing client was calculating material costs in Excel. Someone accidentally deleted a zero in a formula. Result: they quoted a $120,000 project at $12,000. They won the bid and lost <strong>$108,000</strong>.
     </p>
 
     <p>
-      <strong>Example 2:</strong> A services company's commission calculator had an error for 8 months. They underpaid their top salesperson by $34,000. The salesperson quit. The subsequent fallout cost them an estimated **$180,000** in lost talent and legal fees.
+      <strong>Example 2:</strong> A services company's commission calculator had an error for 8 months. They underpaid their top salesperson by $34,000. The salesperson quit. The subsequent fallout cost them an estimated <strong>$180,000</strong> in lost talent and legal fees.
     </p>
     <p className="italic text-sm mt-4">
-        Internal Link Suggestion: <a href="/services/bookkeeping-data-integrity" className="text-teal-600 hover:underline">Ensure Financial Integrity with Professional Bookkeeping and Data Validation Services.</a>
+        Internal Link Suggestion: <a href="/#services" className="text-teal-600 hover:underline">Ensure Financial Integrity with Professional Bookkeeping and Data Validation Services.</a>
     </p>
 
     <h2 id="slow-questions" className="text-3xl font-semibold text-gray-800 mt-10 mb-4">
@@ -192,7 +192,7 @@ export const SpreadsheetsOutgrownContent = (
     </p>
 
     <ul className="list-disc list-inside space-y-1 ml-4">
-      <li>"Which product combinations have the highest **customer lifetime value (CLV)**?"</li>
+      <li>"Which product combinations have the highest <strong>customer lifetime value (CLV)</strong>?"</li>
       <li>"What's the real profitability by customer segment?"</li>
       <li>"Where are we losing deals in the sales process?"</li>
       <li>"Which marketing campaigns actually lead to retained customers?"</li>
@@ -207,7 +207,7 @@ export const SpreadsheetsOutgrownContent = (
     </h2>
 
     <p>
-      The good news: you don't need to become a data engineer or hire a six-person analytics team. Modern **data infrastructure** for small businesses is accessible and cost-effective.
+      The good news: you don't need to become a data engineer or hire a six-person analytics team. Modern <strong>data infrastructure</strong> for small businesses is accessible and cost-effective.
     </p>
     
     <h3 className="text-2xl font-semibold text-gray-700 mt-6 mb-3">What Does the Modern Data Stack Look Like?</h3>
@@ -218,8 +218,8 @@ export const SpreadsheetsOutgrownContent = (
 
     <ol className="list-decimal list-inside space-y-1 ml-4">
       <li><strong>Source Systems:</strong> Your data already exists in QuickBooks, HubSpot/Salesforce, your website's database, etc.</li>
-      <li><strong>The Pipeline (Data Engineering):</strong> Automated tools (ETL/ELT) reliably **extract** data from your sources and **load** it. This engineering ensures the data is clean and never breaks.</li>
-      <li><strong>The Data Warehouse (The Central Library):</strong> A specialized, cloud-based database (like Google BigQuery or Snowflake) that holds the **single source of truth**—a clean, master version of your combined data.</li>
+      <li><strong>The Pipeline (Data Engineering):</strong> Automated tools (ETL/ELT) reliably <strong>extract</strong> data from your sources and <strong>load</strong> it. This engineering ensures the data is clean and never breaks.</li>
+      <li><strong>The Data Warehouse (The Central Library):</strong> A specialized, cloud-based database (like Google BigQuery or Snowflake) that holds the <strong>single source of truth</strong>—a clean, master version of your combined data.</li>
       <li><strong>Business Intelligence (BI) Tools:</strong> Tools like Power BI or Looker Studio connect directly to the Data Warehouse, allowing managers to run complex reports and answer strategic questions in seconds.</li>
     </ol>
 
@@ -230,7 +230,7 @@ export const SpreadsheetsOutgrownContent = (
     </p>
 
     <p>
-      The Payback period? For most businesses, the investment is recovered in **6-12 months** from time savings and error reduction alone. The better strategic decisions are the bonus.
+      The Payback period? For most businesses, the investment is recovered in <strong>6-12 months</strong> from time savings and error reduction alone. The better strategic decisions are the bonus.
     </p>
     
     <h2 className="text-3xl font-semibold text-gray-800 mt-10 mb-4">
@@ -249,7 +249,7 @@ export const SpreadsheetsOutgrownContent = (
     </ul>
 
     <p>
-      You can migrate over 6-12 months. Keep Excel for what it's good at (quick analysis, one-off calculations, planning). Use **proper data infrastructure** for what it's terrible at (being your system of record, sharing data, staying current).
+      You can migrate over 6-12 months. Keep Excel for what it's good at (quick analysis, one-off calculations, planning). Use <strong>proper data infrastructure</strong> for what it's terrible at (being your system of record, sharing data, staying current).
     </p>
 
     <h2 className="text-3xl font-semibold text-gray-800 mt-10 mb-4">
@@ -265,13 +265,13 @@ export const SpreadsheetsOutgrownContent = (
     </p>
 
     <p className="mb-8">
-      The question isn't "Can we afford to upgrade?" It's **"Can we afford not to?"**
+      The question isn't "Can we afford to upgrade?" It's <strong>"Can we afford not to?"</strong>
     </p>
 
     <div className="bg-teal-50 border-l-4 border-teal-600 p-6 my-8">
       <p className="font-semibold text-gray-900 mb-2">Ready to Stop Wrestling with Spreadsheets?</p>
       <p className="text-gray-700">
-        We help small and mid-sized businesses build the data infrastructure they need—without the enterprise complexity. <a href="/contact" className="text-teal-600 font-bold hover:underline">Book a free Data Infrastructure Assessment today.</a>
+        We help small and mid-sized businesses build the data infrastructure they need—without the enterprise complexity. <a href="/#contact" className="text-teal-600 font-bold hover:underline">Book a free Data Infrastructure Assessment today.</a>
       </p>
     </div>
     
@@ -281,13 +281,13 @@ export const SpreadsheetsOutgrownContent = (
     
     <dl className="space-y-4">
         <dt className="font-semibold text-gray-800">Q: What is Data Engineering vs. Data Science?</dt>
-        <dd className="text-gray-700 ml-4">A: **Data Engineering (DE)** is the foundational step: they build and maintain the robust pipelines and clean data warehouses. **Data Science (DS)** uses the clean data provided by the DE to build predictive models and answer future-looking questions (e.g., "What will our sales be next quarter?"). You need DE before you can effectively do DS.</dd>
+        <dd className="text-gray-700 ml-4">A: <strong>Data Engineering (DE)</strong> is the foundational step: they build and maintain the robust pipelines and clean data warehouses. <strong>Data Science (DS)</strong> uses the clean data provided by the DE to build predictive models and answer future-looking questions (e.g., "What will our sales be next quarter?"). You need DE before you can effectively do DS.</dd>
 
         <dt className="font-semibold text-gray-800 mt-4">Q: Is this only for companies with huge data volumes?</dt>
-        <dd className="text-gray-700 ml-4">A: No. It's for companies struggling with **complexity and speed**, regardless of volume. Even 50,000 rows spread across 10 different, unlinked spreadsheets is a monumental complexity problem that a centralized data warehouse solves instantly.</dd>
+        <dd className="text-gray-700 ml-4">A: No. It's for companies struggling with <strong>complexity and speed</strong>, regardless of volume. Even 50,000 rows spread across 10 different, unlinked spreadsheets is a monumental complexity problem that a centralized data warehouse solves instantly.</dd>
 
         <dt className="font-semibold text-gray-800 mt-4">Q: How long does a migration project typically take?</dt>
-        <dd className="text-gray-700 ml-4">A: A basic migration and automation of your most critical report (your MVP - Minimum Viable Product) can often be achieved in **4-8 weeks**. A full-scale migration and development of a comprehensive BI suite may take 3-6 months, depending on the number of systems and the cleanliness of your initial data.</dd>
+        <dd className="text-gray-700 ml-4">A: A basic migration and automation of your most critical report (your MVP - Minimum Viable Product) can often be achieved in <strong>4-8 weeks</strong>. A full-scale migration and development of a comprehensive BI suite may take 3-6 months, depending on the number of systems and the cleanliness of your initial data.</dd>
     </dl>
   </>
 );

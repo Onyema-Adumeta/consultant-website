@@ -5,12 +5,12 @@ export const CostOfBadDataContent = (
         🔥 The Real Cost of Bad Data: Why Quality Matters More Than Volume
     </h1>
     <p className="text-xl text-gray-600 font-medium mb-8">
-        How poor **Data Quality** cripples decision-making, costs money, and how **Data Governance** is the essential solution for business integrity.
+        How poor <strong>Data Quality</strong> cripples decision-making, costs money, and how <strong>Data Governance</strong> is the essential solution for business integrity.
     </p>
 
     {/* --- FULL-WIDTH INTRODUCTION TEXT --- */}
     <p>
-      In the age of big data, the mantra is often "collect more." But there is a crucial truth business leaders must face: More data doesn't guarantee better decisions. **Bad data might be worse than no data**—because at least with no data, you know you're guessing.
+      In the age of big data, the mantra is often "collect more." But there is a crucial truth business leaders must face: More data doesn't guarantee better decisions. <strong>Bad data might be worse than no data</strong>—because at least with no data, you know you're guessing.
     </p>
 
     <p className="mb-8">
@@ -52,7 +52,7 @@ export const CostOfBadDataContent = (
         </li>
         <li>
             <strong>Inaccuracy: The Faulty Numbers.</strong>
-            <p className="mt-1 text-gray-700">Wrong numbers, outdated information, and calculation errors. **Example:** The manufacturing client mentioned earlier lost $120K quoting based on 18-month-old material costs stored in an unverified spreadsheet. Inaccurate data leads to wrong pricing, budgeting, and forecasting.</p>
+            <p className="mt-1 text-gray-700">Wrong numbers, outdated information, and calculation errors. <strong>Example:</strong> The manufacturing client mentioned earlier lost $120K quoting based on 18-month-old material costs stored in an unverified spreadsheet. Inaccurate data leads to wrong pricing, budgeting, and forecasting.</p>
         </li>
         <li>
             <strong>Inconsistency: The Identity Crisis.</strong>
@@ -87,13 +87,13 @@ export const CostOfBadDataContent = (
 
     <ul className="list-disc list-inside space-y-3 ml-4">
         <li>
-            <strong>Time Waste and Labor Cost:</strong> Studies show that teams spend up to **50% of their time** finding, verifying, and cleaning data instead of analyzing it. This is pure, unproductive overhead.
+            <strong>Time Waste and Labor Cost:</strong> Studies show that teams spend up to <strong>50% of their time</strong> finding, verifying, and cleaning data instead of analyzing it. This is pure, unproductive overhead.
         </li>
         <li>
             <strong>Wrong Decisions and Failed Strategy:</strong> Strategy built on faulty numbers fails—guaranteed. Incorrect market size estimates, poor inventory decisions, or under-priced quotes lead directly to wasted capital and lost revenue.
         </li>
         <li>
-            <strong>Lost Opportunities and Sales:</strong> You can't analyze what you don't trust. If you can't reliably calculate **Customer Lifetime Value (CLV)** or accurately segment your market, high-value opportunities are missed.
+            <strong>Lost Opportunities and Sales:</strong> You can't analyze what you don't trust. If you can't reliably calculate <strong>Customer Lifetime Value (CLV)</strong> or accurately segment your market, high-value opportunities are missed.
         </li>
         <li>
             <strong>Customer Frustration & Brand Damage:</strong> Sending irrelevant offers, using old addresses, or calling a customer who already paid damages relationships and erodes trust, directly impacting retention.
@@ -105,7 +105,7 @@ export const CostOfBadDataContent = (
 
     <h3 className="text-2xl font-semibold text-gray-700 mt-8 mb-3">Case Study: The Commission Disaster</h3>
     <blockquote className="border-l-4 border-red-500 pl-4 py-2 italic text-gray-700">
-        A services company used a poorly maintained spreadsheet to calculate sales commissions. Due to an unnoticed formula error and lack of validation, they underpaid their top salesperson by **$34,000** over eight months. The ensuing legal settlement and hiring costs exceeded **$180,000**. The root cause was a lack of data validation.
+        A services company used a poorly maintained spreadsheet to calculate sales commissions. Due to an unnoticed formula error and lack of validation, they underpaid their top salesperson by <strong>$34,000</strong> over eight months. The ensuing legal settlement and hiring costs exceeded <strong>$180,000</strong>. The root cause was a lack of data validation.
     </blockquote>
 
     <hr className="my-8" />
@@ -114,7 +114,7 @@ export const CostOfBadDataContent = (
         The Fix: Establishing a Data Governance Framework
     </h2>
     <p>
-        Fixing bad data is not a one-time project; it requires discipline, technology, and a commitment to **Data Governance**. This framework ensures data is consistently accurate, complete, and reliable across the organization.
+        Fixing bad data is not a one-time project; it requires discipline, technology, and a commitment to <strong>Data Governance</strong>. This framework ensures data is consistently accurate, complete, and reliable across the organization.
     </p>
     
     
@@ -126,7 +126,7 @@ export const CostOfBadDataContent = (
             <strong>Validate at the Source (The Gateway):</strong> The cheapest bad data is the data that never enters your system. Implement real-time validation checks in your forms and systems (CRM, ERP) to prevent bad data from entering the warehouse in the first place.
         </li>
         <li>
-            <strong>Automate Monitoring and Cleansing:</strong> Use **Data Engineering** pipelines to automatically catch and flag issues *before* they spread to reporting tools. Automation is the only way to manage quality at scale.
+            <strong>Automate Monitoring and Cleansing:</strong> Use <strong>Data Engineering</strong> pipelines to automatically catch and flag issues *before* they spread to reporting tools. Automation is the only way to manage quality at scale.
         </li>
         <li>
             <strong>Create Data Accountability:</strong> Assign ownership. Who is the "owner" of customer records? Who is responsible for financial reporting data? Accountability ensures data quality is a job function, not an afterthought.
@@ -136,7 +136,7 @@ export const CostOfBadDataContent = (
         </li>
     </ol>
     <p className="italic text-sm mt-4">
-        Internal Link Suggestion: <a href="/services/data-engineering-services" className="text-teal-600 hover:underline">See how our Data Engineering services build automated quality checks into your infrastructure.</a>
+        Internal Link Suggestion: <a href="/#services" className="text-teal-600 hover:underline">See how our Data Engineering services build automated quality checks into your infrastructure.</a>
     </p>
 
 
@@ -145,13 +145,13 @@ export const CostOfBadDataContent = (
     </h2>
 
     <p className="mb-8">
-        Your data is the lifeblood of your business. If it's flawed, every strategic initiative—from a marketing campaign to a major capital investment—is built on sand. Investing in data quality and governance is not an expense; it is a **mandatory investment in business integrity and sustainable growth.**
+        Your data is the lifeblood of your business. If it's flawed, every strategic initiative—from a marketing campaign to a major capital investment—is built on sand. Investing in data quality and governance is not an expense; it is a <strong>mandatory investment in business integrity and sustainable growth.</strong>
     </p>
 
     <div className="bg-teal-50 border-l-4 border-teal-600 p-6 my-8">
       <p className="font-semibold text-gray-900 mb-2">Ready to Stop Paying the Cost of Bad Data?</p>
       <p className="text-gray-700">
-        We specialize in assessing data quality and implementing automated governance frameworks for growing businesses. <a href="/contact" className="text-teal-600 font-bold hover:underline">Schedule your Data Integrity Assessment today.</a>
+        We specialize in assessing data quality and implementing automated governance frameworks for growing businesses. <a href="/#contact" className="text-teal-600 font-bold hover:underline">Schedule your Data Integrity Assessment today.</a>
       </p>
     </div>
     
@@ -164,10 +164,10 @@ export const CostOfBadDataContent = (
         <dd className="text-gray-700 ml-4">A: Data Governance is the system of policies, procedures, and roles that ensure data is managed correctly. Yes, you need it. If you have more than one person entering data, or more than one system storing it, governance is the blueprint for achieving that 'single source of truth' and avoiding catastrophic errors.</dd>
 
         <dt className="font-semibold text-gray-800 mt-4">Q: What's the fastest way to check our current data quality?</dt>
-        <dd className="text-gray-700 ml-4">A: Start with a **Data Profiling** exercise on your most critical dataset (e.g., your customer list or general ledger). Look for completeness rates (how many records are missing key fields) and consistency (how many variations of customer names exist). This quick assessment reveals immediate, quantifiable pain points.</dd>
+        <dd className="text-gray-700 ml-4">A: Start with a <strong>Data Profiling</strong> exercise on your most critical dataset (e.g., your customer list or general ledger). Look for completeness rates (how many records are missing key fields) and consistency (how many variations of customer names exist). This quick assessment reveals immediate, quantifiable pain points.</dd>
 
         <dt className="font-semibold text-gray-800 mt-4">Q: Is Data Quality a technology problem or a people problem?</dt>
-        <dd className="text-gray-700 ml-4">A: It's both. The **people** must agree on the standards (governance), but the **technology** (data validation tools, automated pipelines) must enforce those standards. Automation is necessary because human error is inevitable.</dd>
+        <dd className="text-gray-700 ml-4">A: It's both. The <strong>people</strong> must agree on the standards (governance), but the <strong>technology</strong> (data validation tools, automated pipelines) must enforce those standards. Automation is necessary because human error is inevitable.</dd>
     </dl>
   </>
 );

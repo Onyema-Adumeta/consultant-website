@@ -5,7 +5,7 @@ export const FinancialMetricsContent = (
         📈 Beyond Revenue: The 8 Financial Metrics That Predict Business Success
     </h1>
     <p className="text-xl text-gray-600 font-medium mb-8">
-        Revenue is vanity, profit is sanity, but **Key Performance Indicators (KPIs)** are strategy. Learn the eight essential financial metrics you must track to predict success—and how **automated dashboards** make it possible.
+        Revenue is vanity, profit is sanity, but <strong>Key Performance Indicators (KPIs)</strong> are strategy. Learn the eight essential financial metrics you must track to predict success—and how <strong>automated dashboards</strong> make it possible.
     </p>
 
     <p>
@@ -36,8 +36,8 @@ export const FinancialMetricsContent = (
         <section>
             <h3 className="text-2xl font-semibold text-gray-700 mb-3">3. Current Ratio</h3>
             <p><strong>Formula:</strong> Current Assets / Current Liabilities</p>
-            <p><strong>Why it matters:</strong> This is a measure of **liquidity**. It tells you if you can cover all your bills and obligations due in the next 12 months with the assets you have on hand (cash, receivables, inventory).</p>
-            <p><strong>Good target:</strong> **1.5–2.0**. Too low (under 1.0) means danger; too high (over 2.5) suggests capital may be sitting idle.</p>
+            <p><strong>Why it matters:</strong> This is a measure of <strong>liquidity</strong>. It tells you if you can cover all your bills and obligations due in the next 12 months with the assets you have on hand (cash, receivables, inventory).</p>
+            <p><strong>Good target:</strong> <strong>1.5–2.0</strong>. Too low (under 1.0) means danger; too high (over 2.5) suggests capital may be sitting idle.</p>
         </section>
 
         <section>
@@ -51,20 +51,20 @@ export const FinancialMetricsContent = (
             <h3 className="text-2xl font-semibold text-gray-700 mb-3">5. Customer Lifetime Value (CLV)</h3>
             <p><strong>Formula:</strong> Average Purchase Value × Purchase Frequency × Customer Lifespan</p>
             <p><strong>Why it matters:</strong> The total revenue value a customer brings over the entire relationship. This metric justifies your spending decisions.</p>
-            <p className="bg-gray-100 p-2 border-l-4 border-blue-500 mt-2"><strong>The Golden Rule:</strong> CLV should be **3x CAC** minimum. If your ratio is lower, your marketing is likely losing money.</p>
+            <p className="bg-gray-100 p-2 border-l-4 border-blue-500 mt-2"><strong>The Golden Rule:</strong> CLV should be <strong>3x CAC</strong> minimum. If your ratio is lower, your marketing is likely losing money.</p>
         </section>
 
         <section>
             <h3 className="text-2xl font-semibold text-gray-700 mb-3">6. Accounts Receivable Days (A/R Days)</h3>
             <p><strong>Formula:</strong> (Average Accounts Receivable / Total Revenue) × 365</p>
-            <p><strong>Why it matters:</strong> How long, on average, it takes you to collect payment after a sale. High A/R Days mean cash is stuck, crippling your **Operating Cash Flow**.</p>
+            <p><strong>Why it matters:</strong> How long, on average, it takes you to collect payment after a sale. High A/R Days mean cash is stuck, crippling your <strong>Operating Cash Flow</strong>.</p>
             <p><strong>Good target:</strong> Under 45 days. Over 60 days means a serious cash flow problem is brewing.</p>
         </section>
 
         <section>
             <h3 className="text-2xl font-semibold text-gray-700 mb-3">7. Revenue Per Employee (RPE)</h3>
             <p><strong>Formula:</strong> Total Revenue / Number of Full-Time Equivalent Employees</p>
-            <p><strong>Why it matters:</strong> This is the ultimate **efficiency and productivity** measure. It helps answer: Are we leveraging automation and labor effectively? Falling RPE suggests hiring inefficiency or process bottlenecks.</p>
+            <p><strong>Why it matters:</strong> This is the ultimate <strong>efficiency and productivity</strong> measure. It helps answer: Are we leveraging automation and labor effectively? Falling RPE suggests hiring inefficiency or process bottlenecks.</p>
             <p><strong>Benchmarks vary:</strong> Typical targets are $150K–$300K for services, $300K–$500K for high-growth tech.</p>
         </section>
 
@@ -87,19 +87,19 @@ export const FinancialMetricsContent = (
 
     <h3 className="text-2xl font-semibold text-gray-700 mt-6 mb-3">Option 1: Accounting Software Dashboards</h3>
     <p>
-        QuickBooks or Xero provide built-in basic tracking for GPM and Current Ratio. **Time:** 15 minutes/month after initial setup.
+        QuickBooks or Xero provide built-in basic tracking for GPM and Current Ratio. <strong>Time:</strong> 15 minutes/month after initial setup.
     </p>
 
     <h3 className="text-2xl font-semibold text-gray-700 mt-6 mb-3">Option 2: Data Pipelines & BI Dashboards (Best Practice)</h3>
     <p>
-        By consolidating data from your Accounting, CRM, and Marketing platforms using **Data Engineering**, you can automate a single, real-time Business Intelligence (BI) dashboard that calculates all 8 metrics instantly.
+        By consolidating data from your Accounting, CRM, and Marketing platforms using <strong>Data Engineering</strong>, you can automate a single, real-time Business Intelligence (BI) dashboard that calculates all 8 metrics instantly.
     </p>
     <ul className="list-disc list-inside space-y-1 ml-4 text-gray-700">
-        <li>**Time:** 5 minutes/month (to review). Zero manual entry.</li>
-        <li>**Benefit:** Eliminates errors and provides instant, cross-functional insight (e.g., CLV and CAC are combined).</li>
+        <li><strong>Time:</strong> 5 minutes/month (to review). Zero manual entry.</li>
+        <li><strong>Benefit:</strong> Eliminates errors and provides instant, cross-functional insight (e.g., CLV and CAC are combined).</li>
     </ul>
     <p className="italic text-sm mt-4">
-        Internal Link Suggestion: <a href="/services/data-engineering-services" className="text-teal-600 hover:underline">Automate your reporting with our Data Pipeline implementation services.</a>
+        Internal Link Suggestion: <a href="/#services" className="text-teal-600 hover:underline">Automate your reporting with our Data Pipeline implementation services.</a>
     </p>
     
     <h2 className="text-3xl font-semibold text-gray-800 mt-10 mb-4">
@@ -109,13 +109,13 @@ export const FinancialMetricsContent = (
       <li><strong>Tracking Too Many:</strong> Start with these 8. Add more only when you are confident you will *act* on the new data.</li>
       <li><strong>Not Acting on Data:</strong> Metrics without actions are wasted time. If CAC is too high, immediately launch a cost-cutting campaign.</li>
       <li><strong>Ignoring Trends:</strong> A single month means little. Look for patterns over three or more months to confirm a strategic shift is required.</li>
-      <li><strong>Using Bad Data:</strong> If the underlying bookkeeping is flawed, the most elegant dashboard is useless. **Garbage in, garbage out.**</li>
+      <li><strong>Using Bad Data:</strong> If the underlying bookkeeping is flawed, the most elegant dashboard is useless. <strong>Garbage in, garbage out.</strong></li>
     </ul>
 
     <div className="bg-teal-50 border-l-4 border-teal-600 p-6 my-8">
       <p className="font-semibold text-gray-900 mb-2">Want Automated Financial Dashboards and Strategic Review?</p>
       <p className="text-gray-700">
-        We build automated dashboards that track these metrics in real-time, coupled with quarterly **Business Consulting** reviews to help you interpret the trends and define actionable strategies. <a href="/contact" className="text-teal-600 font-bold hover:underline">Schedule your Financial Metrics Review today.</a>
+        We build automated dashboards that track these metrics in real-time, coupled with quarterly <strong>Business Consulting</strong> reviews to help you interpret the trends and define actionable strategies. <a href="/#contact" className="text-teal-600 font-bold hover:underline">Schedule your Financial Metrics Review today.</a>
       </p>
     </div>
     
@@ -125,7 +125,7 @@ export const FinancialMetricsContent = (
     
     <dl className="space-y-4">
         <dt className="font-semibold text-gray-800">Q: Should I track metrics weekly or monthly?</dt>
-        <dd className="text-gray-700 ml-4">A: Key liquidity indicators like **Cash Position** and **Accounts Receivable Days** should be reviewed weekly to manage immediate cash flow. Strategic metrics (CLV, CAC, GPM) are usually reviewed monthly or quarterly, as the trends take longer to establish.</dd>
+        <dd className="text-gray-700 ml-4">A: Key liquidity indicators like <strong>Cash Position</strong> and <strong>Accounts Receivable Days</strong> should be reviewed weekly to manage immediate cash flow. Strategic metrics (CLV, CAC, GPM) are usually reviewed monthly or quarterly, as the trends take longer to establish.</dd>
 
         <dt className="font-semibold text-gray-800 mt-4">Q: What's the biggest mistake in calculating CLV?</dt>
         <dd className="text-gray-700 ml-4">A: The biggest mistake is including only the initial sale. True CLV must account for repeat purchases, upsells, and subscriptions over the customer's full lifespan to be strategically useful against CAC.</dd>

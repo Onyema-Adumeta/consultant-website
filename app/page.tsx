@@ -2,7 +2,7 @@ import HeroSection from './components/HeroSection';
 import ServicesSection from './components/ServicesSection';
 import AboutSection from './components/AboutSection';
 import CertificationsSection from './components/CertificationsSection';
-import ContactSection from './components/ContactSection';
+import ContactSection from './components/ContactSection';  // ✅ CORRECT
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 
