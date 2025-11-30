@@ -533,7 +533,7 @@ const InsightBridgePage = () => {
                       <td className="px-6 py-5 text-lg">Best For</td>
                       <td className="px-6 py-5 text-center bg-white/10">
                         <div className="text-lg">SMBs</div>
-                        <div className="text-sm font-normal">($1M-$50M revenue)</div>
+                        <div className="text-sm font-normal">($100-$50M revenue)</div>
                       </td>
                       <td className="px-6 py-5 text-center">
                         <div className="text-sm font-normal">Very Small</div>
