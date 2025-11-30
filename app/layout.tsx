@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const inter = Inter({
@@ -62,9 +63,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth">
-      <body className={`${inter.variable} ${playfair.variable} antialiased`}>
+    <html lang="en" className="scroll-smooth" suppressHydrationWarning>
+      <body className={`${inter.variable} ${playfair.variable} antialiased`} suppressHydrationWarning>
         {children}
+        
+        {/* Tidio Live Chat Widget */}
+        <Script 
+          src="//code.tidio.co/8dop6qhaeswsbr7qipzbpmimcvulozjd.js" 
+          strategy="lazyOnload"
+        />
       </body>
     </html>
   );
