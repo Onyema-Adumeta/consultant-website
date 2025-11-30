@@ -589,7 +589,7 @@ const InsightBridgePage = () => {
                   Enterprise AI capabilities at SMB pricing. Get 98% of the features for 1% of the cost of traditional solutions.
                 </p>
                 <div className="text-green-600 font-bold text-lg">
-                  $149/mo vs $10,000+/mo
+                  $50/mo vs $5,000+/mo
                 </div>
               </div>
 
